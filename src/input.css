@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Sharp Grotesk Book 20", system-ui, sans-serif;
+  }
+}
+
+.header_background_gradient {
+  background: radial-gradient(
+    140.59% 71.49% at 92.08% 10.54%,
+    rgba(102, 182, 255, 0.59) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+
+.header_title_gradient {
+  background: radial-gradient(
+    69.42% 69.42% at 50.11% 12.4%,
+    #4bd1ad 0%,
+    #77a3e9 21.97%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
