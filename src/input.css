@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    font-family: "Sharp Grotesk Book 20", system-ui, sans-serif;
+    font-family: 'Sharp Grotesk Book 20', system-ui, sans-serif;
   }
 }
 
@@ -21,6 +21,42 @@
     69.42% 69.42% at 50.11% 12.4%,
     #4bd1ad 0%,
     #77a3e9 21.97%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_1 {
+  background: radial-gradient(#a098d2 0%, #6d5cdb 38.54%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_2 {
+  background: radial-gradient(#8d7bf6 0.52%, #4935c5 28.65%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_3 {
+  background: radial-gradient(
+    78.4% 103.78% at 10.36% 32.69%,
+    #687ef3 0%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_gradient_4 {
+  background: radial-gradient(
+    100% 100% at 80% 50%,
+    #5754d1 0%,
     #000 100%
   );
   background-clip: text;
