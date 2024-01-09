@@ -103,6 +103,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.text_gradient_end {
+  background: radial-gradient(60% 176.23% at 50% 10%, #fff 0%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .white_separator {
   width: 100%;
   background: linear-gradient(
