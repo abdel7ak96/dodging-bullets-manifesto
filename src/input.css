@@ -91,12 +91,37 @@
   -webkit-text-fill-color: transparent;
 }
 
+.text_gradient_engineer {
+  background: radial-gradient(
+    69.42% 69.42% at 90% 30%,
+    #4bd1ad 0%,
+    #77a3e9 50%,
+    #000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .white_separator {
   width: 100%;
   background: linear-gradient(
     180deg,
     #f1f1f1 0%,
     rgba(241, 241, 241, 0.72) 37.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-clip: content-box;
+  position: relative;
+  z-index: 1;
+}
+
+.white_separator_v {
+  width: 100%;
+  background: linear-gradient(
+    0deg,
+    #f1f1f1 5%,
+    rgba(241, 241, 241, 0.8) 40%,
     rgba(255, 255, 255, 0) 100%
   );
   background-clip: content-box;
