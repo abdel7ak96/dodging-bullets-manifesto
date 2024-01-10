@@ -2,9 +2,8 @@ $(document).ready(function () {
   $('.slide-conatiner').slick({
     slidesToShow: 3,
     autoplay: true,
-    autoplaySpeed: 0,
     arrows: false,
-    speed: 10000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1200,
