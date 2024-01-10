@@ -445,7 +445,7 @@ video {
 }
 
 html {
-  font-family: 'Sharp Grotesk Book 20', system-ui, sans-serif;
+  font-family: 'Sharp', system-ui, sans-serif;
 }
 
 *, ::before, ::after {
@@ -2578,6 +2578,12 @@ html {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+@font-face {
+  font-family: 'Sharp';
+
+  src: url('../assets/fonts/SharpGroteskBook20.woff2') format('woff2');
 }
 
 .header_background_gradient {
