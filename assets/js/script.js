@@ -3,7 +3,6 @@ $(document).ready(function () {
     slidesToShow: 3,
     autoplay: true,
     arrows: false,
-    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1200,
