@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+Disallow: /*
+Disallow: /cgi-bin/
+Sitemap: https://abdel7ak96.github.io/dodging-bullets-manifesto/
